@@ -1,0 +1,16 @@
+button{
+    border: 2px solid white;
+    /* border: none; */
+    padding: 10px;
+    width: 170px;
+    border-radius: 8px;
+    background-color: rgb(74, 150, 208);
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    box-shadow: 0px 0px 9px 1px #717171;
+}
+button:active{
+    box-shadow: none;
+}

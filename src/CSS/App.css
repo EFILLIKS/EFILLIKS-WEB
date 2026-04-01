@@ -1,0 +1,72 @@
+.BlackScreen{
+  background-color: rgba(0,0,0,0.85);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.PopupScreen{
+  background-color: white;
+  position: absolute;
+  width: 600px;
+  border-radius: 8px;
+  padding: 30px;
+  
+}
+
+.AshokLogo{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* align-content: space-around; */
+  /* border: 2px solid red; */
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+img{
+  Padding: 20px;
+  height: 100px;
+}
+
+#bc{
+  position: absolute;
+  height: 400px;
+  bottom: 0px;
+  opacity: 0.5;
+}
+
+
+p{
+  color: rgb(0, 0, 0);
+  position:relative;
+  /* border: 2px solid red; */
+  width: 90%;
+  text-align: center;
+  font-family: 'Noto Sans Tamil', sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: rgb(3, 114, 178);
+
+}
+
+/* / */
+
+input{
+  width: 50%;
+  border: none;
+  background-color: rgba(122, 220, 255, 0.0);
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  font-size: 25px;
+  outline: none;
+}
